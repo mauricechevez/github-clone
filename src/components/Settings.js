@@ -75,6 +75,7 @@ const Settings = (props) => {
                 <label htmlFor="location" style={{fontWeight:700}}>Location</label>
                 <input className="form-control" name="location" id="location" value={props.myProfile.location ? props.myProfile.location : "Null"}></input>
             </div>
+            <button className="btn btn-primary">Non working button</button>
         </form>
 
 
